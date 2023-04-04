@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 400px;
+    margin: 10px auto;
+}
+
+.display {
+    text-align: right;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.key {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 90px;
+    line-height: 90px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #333333;
+    user-select: none;
+    cursor: pointer;
+}
+
+table tr:first-child .key {
+    background-color: #a5a5a5;
+}
+
+table tr:first-child .key:active {
+    background-color: #a5a5a590;
+}
+
+table td:last-child .key {
+    background-color: #ffa45c;
+}
+
+table td:last-child .key:active {
+    background-color: #ffa45ccc;
+}
+
+.key:active {
+    background-color: #33333390;
+}
